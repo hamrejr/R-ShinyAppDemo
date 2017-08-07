@@ -1,0 +1,17 @@
+{
+    "contents" : " list_field_user = list(tabPanel(\"test2\",fluidRow(column(6,numericInput(\"inputtest\", \"test\", value = 0),column(6,actionButton(inputId =\"test1\",label =\"go\"))))),\n                       h1(\"1234\"),h2(\"234\"))\n \n ",
+    "created" : 1502140955918.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3495748993",
+    "id" : "97457920",
+    "lastKnownWriteTime" : 1502137285,
+    "path" : "C:/Users/hamrejr/Pictures/R/plz/R-ShinyAppDemo/user.r",
+    "project_path" : "user.r",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

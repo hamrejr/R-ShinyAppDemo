@@ -1,0 +1,17 @@
+{
+    "contents" : "\n# This is the server logic for a Shiny web application.\n# You can find out more about building applications with Shiny here:\n#\n# http://shiny.rstudio.com\n#\n\nlibrary(shiny)\ndata(pdl2)\nshinyServer(\n  \n  function(input, output) {\n    \n    output$data <- renderTable({\n      colm <- as.numeric(input$var)\n      pdl2[colm]\n      # head(pdl2)\n      \n    })\n    \n    output$myhist <- renderPlot({\n      colm <- as.numeric(input$var)\n      hist(pdl2[,colm], breaks=seq(0, max(pdl2[,colm]), l=input$bins+1), col=input$color, main=\"Histogram of PD-L1 Positive Cells\", xlab=names(pdl2[colm]), xlim=c(0,max(pdl2[,colm])))\n      \n    })\n    \n  }\n)\n",
+    "created" : 1502140936879.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3318340300",
+    "id" : "D0BAFCE1",
+    "lastKnownWriteTime" : 1487976939,
+    "path" : "C:/Users/hamrejr/Pictures/R/plz/R-ShinyAppDemo/server.R",
+    "project_path" : "server.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

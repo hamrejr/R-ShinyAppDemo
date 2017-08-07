@@ -1,0 +1,17 @@
+{
+    "contents" : "# R-ShinyAppDemo\nA brief demo on the shiny app.\n\nPlease click the \"server.R\" file -> run app -> open in browser \n",
+    "created" : 1502141012312.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "185336192",
+    "id" : "F010850B",
+    "lastKnownWriteTime" : 1502141052,
+    "path" : "C:/Users/hamrejr/Pictures/R/plz/R-ShinyAppDemo/README.md",
+    "project_path" : "README.md",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "markdown"
+}
